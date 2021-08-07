@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		636C40C926BE369A00CD0205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C40C826BE369A00CD0205 /* AppDelegate.m */; };
+		636C40CC26BE369A00CD0205 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C40CB26BE369A00CD0205 /* SceneDelegate.m */; };
+		636C40CF26BE369A00CD0205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C40CE26BE369A00CD0205 /* ViewController.m */; };
+		636C40D226BE369A00CD0205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636C40D026BE369A00CD0205 /* Main.storyboard */; };
+		636C40D426BE369B00CD0205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636C40D326BE369B00CD0205 /* Assets.xcassets */; };
+		636C40D726BE369B00CD0205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636C40D526BE369B00CD0205 /* LaunchScreen.storyboard */; };
+		636C40DA26BE369B00CD0205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C40D926BE369B00CD0205 /* main.m */; };
+		636C40E426BE369B00CD0205 /* YueYuanAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C40E326BE369B00CD0205 /* YueYuanAPPTests.m */; };
+		636C40EF26BE369B00CD0205 /* YueYuanAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C40EE26BE369B00CD0205 /* YueYuanAPPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		636C40E026BE369B00CD0205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636C40BC26BE369A00CD0205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636C40C326BE369A00CD0205;
+			remoteInfo = YueYuanAPP;
+		};
+		636C40EB26BE369B00CD0205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636C40BC26BE369A00CD0205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636C40C326BE369A00CD0205;
+			remoteInfo = YueYuanAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		636C40C426BE369A00CD0205 /* YueYuanAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueYuanAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		636C40C726BE369A00CD0205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		636C40C826BE369A00CD0205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		636C40CA26BE369A00CD0205 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		636C40CB26BE369A00CD0205 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		636C40CD26BE369A00CD0205 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		636C40CE26BE369A00CD0205 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		636C40D126BE369A00CD0205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		636C40D326BE369B00CD0205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		636C40D626BE369B00CD0205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		636C40D826BE369B00CD0205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636C40D926BE369B00CD0205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		636C40DF26BE369B00CD0205 /* YueYuanAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YueYuanAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		636C40E326BE369B00CD0205 /* YueYuanAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YueYuanAPPTests.m; sourceTree = "<group>"; };
+		636C40E526BE369B00CD0205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636C40EA26BE369B00CD0205 /* YueYuanAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YueYuanAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		636C40EE26BE369B00CD0205 /* YueYuanAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YueYuanAPPUITests.m; sourceTree = "<group>"; };
+		636C40F026BE369B00CD0205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636C40C126BE369A00CD0205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636C40DC26BE369B00CD0205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636C40E726BE369B00CD0205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636C40BB26BE369A00CD0205 = {
+			isa = PBXGroup;
+			children = (
+				636C40C626BE369A00CD0205 /* YueYuanAPP */,
+				636C40E226BE369B00CD0205 /* YueYuanAPPTests */,
+				636C40ED26BE369B00CD0205 /* YueYuanAPPUITests */,
+				636C40C526BE369A00CD0205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		636C40C526BE369A00CD0205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636C40C426BE369A00CD0205 /* YueYuanAPP.app */,
+				636C40DF26BE369B00CD0205 /* YueYuanAPPTests.xctest */,
+				636C40EA26BE369B00CD0205 /* YueYuanAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636C40C626BE369A00CD0205 /* YueYuanAPP */ = {
+			isa = PBXGroup;
+			children = (
+				636C40C726BE369A00CD0205 /* AppDelegate.h */,
+				636C40C826BE369A00CD0205 /* AppDelegate.m */,
+				636C40CA26BE369A00CD0205 /* SceneDelegate.h */,
+				636C40CB26BE369A00CD0205 /* SceneDelegate.m */,
+				636C40CD26BE369A00CD0205 /* ViewController.h */,
+				636C40CE26BE369A00CD0205 /* ViewController.m */,
+				636C40D026BE369A00CD0205 /* Main.storyboard */,
+				636C40D326BE369B00CD0205 /* Assets.xcassets */,
+				636C40D526BE369B00CD0205 /* LaunchScreen.storyboard */,
+				636C40D826BE369B00CD0205 /* Info.plist */,
+				636C40D926BE369B00CD0205 /* main.m */,
+			);
+			path = YueYuanAPP;
+			sourceTree = "<group>";
+		};
+		636C40E226BE369B00CD0205 /* YueYuanAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				636C40E326BE369B00CD0205 /* YueYuanAPPTests.m */,
+				636C40E526BE369B00CD0205 /* Info.plist */,
+			);
+			path = YueYuanAPPTests;
+			sourceTree = "<group>";
+		};
+		636C40ED26BE369B00CD0205 /* YueYuanAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				636C40EE26BE369B00CD0205 /* YueYuanAPPUITests.m */,
+				636C40F026BE369B00CD0205 /* Info.plist */,
+			);
+			path = YueYuanAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		636C40C326BE369A00CD0205 /* YueYuanAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636C40F326BE369B00CD0205 /* Build configuration list for PBXNativeTarget "YueYuanAPP" */;
+			buildPhases = (
+				636C40C026BE369A00CD0205 /* Sources */,
+				636C40C126BE369A00CD0205 /* Frameworks */,
+				636C40C226BE369A00CD0205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YueYuanAPP;
+			productName = YueYuanAPP;
+			productReference = 636C40C426BE369A00CD0205 /* YueYuanAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		636C40DE26BE369B00CD0205 /* YueYuanAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636C40F626BE369B00CD0205 /* Build configuration list for PBXNativeTarget "YueYuanAPPTests" */;
+			buildPhases = (
+				636C40DB26BE369B00CD0205 /* Sources */,
+				636C40DC26BE369B00CD0205 /* Frameworks */,
+				636C40DD26BE369B00CD0205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636C40E126BE369B00CD0205 /* PBXTargetDependency */,
+			);
+			name = YueYuanAPPTests;
+			productName = YueYuanAPPTests;
+			productReference = 636C40DF26BE369B00CD0205 /* YueYuanAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		636C40E926BE369B00CD0205 /* YueYuanAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636C40F926BE369B00CD0205 /* Build configuration list for PBXNativeTarget "YueYuanAPPUITests" */;
+			buildPhases = (
+				636C40E626BE369B00CD0205 /* Sources */,
+				636C40E726BE369B00CD0205 /* Frameworks */,
+				636C40E826BE369B00CD0205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636C40EC26BE369B00CD0205 /* PBXTargetDependency */,
+			);
+			name = YueYuanAPPUITests;
+			productName = YueYuanAPPUITests;
+			productReference = 636C40EA26BE369B00CD0205 /* YueYuanAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		636C40BC26BE369A00CD0205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					636C40C326BE369A00CD0205 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					636C40DE26BE369B00CD0205 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 636C40C326BE369A00CD0205;
+					};
+					636C40E926BE369B00CD0205 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 636C40C326BE369A00CD0205;
+					};
+				};
+			};
+			buildConfigurationList = 636C40BF26BE369A00CD0205 /* Build configuration list for PBXProject "YueYuanAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 636C40BB26BE369A00CD0205;
+			productRefGroup = 636C40C526BE369A00CD0205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636C40C326BE369A00CD0205 /* YueYuanAPP */,
+				636C40DE26BE369B00CD0205 /* YueYuanAPPTests */,
+				636C40E926BE369B00CD0205 /* YueYuanAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636C40C226BE369A00CD0205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636C40D726BE369B00CD0205 /* LaunchScreen.storyboard in Resources */,
+				636C40D426BE369B00CD0205 /* Assets.xcassets in Resources */,
+				636C40D226BE369A00CD0205 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636C40DD26BE369B00CD0205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636C40E826BE369B00CD0205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636C40C026BE369A00CD0205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636C40CF26BE369A00CD0205 /* ViewController.m in Sources */,
+				636C40C926BE369A00CD0205 /* AppDelegate.m in Sources */,
+				636C40DA26BE369B00CD0205 /* main.m in Sources */,
+				636C40CC26BE369A00CD0205 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636C40DB26BE369B00CD0205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636C40E426BE369B00CD0205 /* YueYuanAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636C40E626BE369B00CD0205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636C40EF26BE369B00CD0205 /* YueYuanAPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		636C40E126BE369B00CD0205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636C40C326BE369A00CD0205 /* YueYuanAPP */;
+			targetProxy = 636C40E026BE369B00CD0205 /* PBXContainerItemProxy */;
+		};
+		636C40EC26BE369B00CD0205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636C40C326BE369A00CD0205 /* YueYuanAPP */;
+			targetProxy = 636C40EB26BE369B00CD0205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		636C40D026BE369A00CD0205 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636C40D126BE369A00CD0205 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		636C40D526BE369B00CD0205 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636C40D626BE369B00CD0205 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		636C40F126BE369B00CD0205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		636C40F226BE369B00CD0205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		636C40F426BE369B00CD0205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YueYuanAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YueYuan.YueYuanAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		636C40F526BE369B00CD0205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YueYuanAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YueYuan.YueYuanAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		636C40F726BE369B00CD0205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YueYuanAPPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YueYuan.YueYuanAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YueYuanAPP.app/YueYuanAPP";
+			};
+			name = Debug;
+		};
+		636C40F826BE369B00CD0205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YueYuanAPPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YueYuan.YueYuanAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YueYuanAPP.app/YueYuanAPP";
+			};
+			name = Release;
+		};
+		636C40FA26BE369B00CD0205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YueYuanAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YueYuan.YueYuanAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YueYuanAPP;
+			};
+			name = Debug;
+		};
+		636C40FB26BE369B00CD0205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YueYuanAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YueYuan.YueYuanAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YueYuanAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		636C40BF26BE369A00CD0205 /* Build configuration list for PBXProject "YueYuanAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636C40F126BE369B00CD0205 /* Debug */,
+				636C40F226BE369B00CD0205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636C40F326BE369B00CD0205 /* Build configuration list for PBXNativeTarget "YueYuanAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636C40F426BE369B00CD0205 /* Debug */,
+				636C40F526BE369B00CD0205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636C40F626BE369B00CD0205 /* Build configuration list for PBXNativeTarget "YueYuanAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636C40F726BE369B00CD0205 /* Debug */,
+				636C40F826BE369B00CD0205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636C40F926BE369B00CD0205 /* Build configuration list for PBXNativeTarget "YueYuanAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636C40FA26BE369B00CD0205 /* Debug */,
+				636C40FB26BE369B00CD0205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 636C40BC26BE369A00CD0205 /* Project object */;
+}
