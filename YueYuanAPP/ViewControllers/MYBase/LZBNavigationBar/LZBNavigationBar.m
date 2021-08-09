@@ -26,8 +26,8 @@
 
 
 - (void)mt_loadUI {
-    self.backgroundColor = kMAIN31AC;
-    self.frame = CGRectMake(0, 0, kScreenWidth, iPhoneX?44:20 + 44);
+    self.backgroundColor = KMAINFFFF;
+    self.frame = CGRectMake(0, 0, kScreenWidth, (iPhoneX?44:20) + 44);
     ///添加标题
     [self addSubview:self.titleLab];
     ///添加返回按钮
@@ -76,7 +76,7 @@
         _titleLab.frame = CGRectMake(60, iPhoneX?44:20, kScreenWidth - 120, 44);
         _titleLab.textAlignment = NSTextAlignmentCenter;
         _titleLab.font = LZBMediumFont(17);
-        _titleLab.textColor = [UIColor whiteColor];
+        _titleLab.textColor = [UIColor blackColor];
     }
     return _titleLab;
 }

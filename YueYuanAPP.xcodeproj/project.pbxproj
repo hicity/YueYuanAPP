@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		636C40C926BE369A00CD0205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C40C826BE369A00CD0205 /* AppDelegate.m */; };
-		636C40CF26BE369A00CD0205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C40CE26BE369A00CD0205 /* ViewController.m */; };
 		636C40D226BE369A00CD0205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636C40D026BE369A00CD0205 /* Main.storyboard */; };
 		636C40D426BE369B00CD0205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636C40D326BE369B00CD0205 /* Assets.xcassets */; };
 		636C40D726BE369B00CD0205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636C40D526BE369B00CD0205 /* LaunchScreen.storyboard */; };
@@ -23,7 +22,6 @@
 		636C412D26BE37BD00CD0205 /* UINavigationBar+handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C411326BE37BD00CD0205 /* UINavigationBar+handle.m */; };
 		636C412E26BE37BD00CD0205 /* LZBBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C411626BE37BD00CD0205 /* LZBBaseTabBarController.m */; };
 		636C412F26BE37BD00CD0205 /* LZBBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C411826BE37BD00CD0205 /* LZBBaseNavigationController.m */; };
-		636C413026BE37BD00CD0205 /* LZBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C411B26BE37BD00CD0205 /* LZBBaseViewController.m */; };
 		636C413126BE37BD00CD0205 /* LZB_TabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C411D26BE37BD00CD0205 /* LZB_TabBarBadge.m */; };
 		636C413226BE37BD00CD0205 /* LZB_TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C411E26BE37BD00CD0205 /* LZB_TabBar.m */; };
 		636C413326BE37BD00CD0205 /* LZB_TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C412226BE37BD00CD0205 /* LZB_TabBarItem.m */; };
@@ -45,6 +43,9 @@
 		636C416E26BE37D500CD0205 /* BANetManagerCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C416A26BE37D500CD0205 /* BANetManagerCache.m */; };
 		636C416F26BE37D500CD0205 /* BANetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C416B26BE37D500CD0205 /* BANetManager.m */; };
 		9F3DDA94E5979E0291D17C4E /* Pods_YueYuanAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0AA3B4C6E1C033C66E80DB /* Pods_YueYuanAPPUITests.framework */; };
+		A4019B5126C1104C002F4DC2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4019B5026C1104C002F4DC2 /* Login.storyboard */; };
+		A4019B5426C110C4002F4DC2 /* YYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4019B5326C110C4002F4DC2 /* YYBaseViewController.m */; };
+		A4019B5726C1112E002F4DC2 /* YYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4019B5626C1112E002F4DC2 /* YYLoginViewController.m */; };
 		B9CE904557A70DEE5A5AFE2C /* Pods_YueYuanAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450A5C82836DE28D801E31B7 /* Pods_YueYuanAPPTests.framework */; };
 		C3C44FFBF01224877DE53664 /* Pods_YueYuanAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B88D5576121584E7AC8130B /* Pods_YueYuanAPP.framework */; };
 /* End PBXBuildFile section */
@@ -76,8 +77,6 @@
 		636C40C426BE369A00CD0205 /* YueYuanAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueYuanAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636C40C726BE369A00CD0205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		636C40C826BE369A00CD0205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		636C40CD26BE369A00CD0205 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		636C40CE26BE369A00CD0205 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		636C40D126BE369A00CD0205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		636C40D326BE369B00CD0205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636C40D626BE369B00CD0205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,11 +101,9 @@
 		636C411326BE37BD00CD0205 /* UINavigationBar+handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+handle.m"; sourceTree = "<group>"; };
 		636C411426BE37BD00CD0205 /* LZBNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBNavigationBar.h; sourceTree = "<group>"; };
 		636C411626BE37BD00CD0205 /* LZBBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBBaseTabBarController.m; sourceTree = "<group>"; };
-		636C411726BE37BD00CD0205 /* LZBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBBaseViewController.h; sourceTree = "<group>"; };
 		636C411826BE37BD00CD0205 /* LZBBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBBaseNavigationController.m; sourceTree = "<group>"; };
 		636C411926BE37BD00CD0205 /* LZBBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBBaseTabBarController.h; sourceTree = "<group>"; };
 		636C411A26BE37BD00CD0205 /* LZBBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBBaseNavigationController.h; sourceTree = "<group>"; };
-		636C411B26BE37BD00CD0205 /* LZBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBBaseViewController.m; sourceTree = "<group>"; };
 		636C411D26BE37BD00CD0205 /* LZB_TabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZB_TabBarBadge.m; sourceTree = "<group>"; };
 		636C411E26BE37BD00CD0205 /* LZB_TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZB_TabBar.m; sourceTree = "<group>"; };
 		636C411F26BE37BD00CD0205 /* LZB_TabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZB_TabBarItem.h; sourceTree = "<group>"; };
@@ -154,6 +151,11 @@
 		636C417026BE3C9000CD0205 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7D786E25E4E3290486142A1F /* Pods-YueYuanAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YueYuanAPPUITests.release.xcconfig"; path = "Target Support Files/Pods-YueYuanAPPUITests/Pods-YueYuanAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A1826F8D68BC1C2CFB8A3BA5 /* Pods-YueYuanAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YueYuanAPPTests.release.xcconfig"; path = "Target Support Files/Pods-YueYuanAPPTests/Pods-YueYuanAPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4019B5026C1104C002F4DC2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A4019B5226C110C4002F4DC2 /* YYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYBaseViewController.h; sourceTree = "<group>"; };
+		A4019B5326C110C4002F4DC2 /* YYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYBaseViewController.m; sourceTree = "<group>"; };
+		A4019B5526C1112E002F4DC2 /* YYLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYLoginViewController.h; sourceTree = "<group>"; };
+		A4019B5626C1112E002F4DC2 /* YYLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLoginViewController.m; sourceTree = "<group>"; };
 		BB0AA3B4C6E1C033C66E80DB /* Pods_YueYuanAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YueYuanAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -218,8 +220,6 @@
 				636C40C726BE369A00CD0205 /* AppDelegate.h */,
 				636C40C826BE369A00CD0205 /* AppDelegate.m */,
 				636C417126BE3D1E00CD0205 /* Supporting Files */,
-				636C40CD26BE369A00CD0205 /* ViewController.h */,
-				636C40CE26BE369A00CD0205 /* ViewController.m */,
 				636C40D026BE369A00CD0205 /* Main.storyboard */,
 				636C40D326BE369B00CD0205 /* Assets.xcassets */,
 				636C40D526BE369B00CD0205 /* LaunchScreen.storyboard */,
@@ -315,6 +315,7 @@
 		636C410E26BE37A700CD0205 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A4019B4B26C10FE5002F4DC2 /* Login */,
 				636C412926BE37BD00CD0205 /* FirstViewController */,
 				636C410F26BE37BD00CD0205 /* MYBase */,
 				636C412626BE37BD00CD0205 /* SecondViewController */,
@@ -347,12 +348,12 @@
 		636C411526BE37BD00CD0205 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				636C411626BE37BD00CD0205 /* LZBBaseTabBarController.m */,
-				636C411726BE37BD00CD0205 /* LZBBaseViewController.h */,
+				636C411A26BE37BD00CD0205 /* LZBBaseNavigationController.h */,
 				636C411826BE37BD00CD0205 /* LZBBaseNavigationController.m */,
 				636C411926BE37BD00CD0205 /* LZBBaseTabBarController.h */,
-				636C411A26BE37BD00CD0205 /* LZBBaseNavigationController.h */,
-				636C411B26BE37BD00CD0205 /* LZBBaseViewController.m */,
+				636C411626BE37BD00CD0205 /* LZBBaseTabBarController.m */,
+				A4019B5226C110C4002F4DC2 /* YYBaseViewController.h */,
+				A4019B5326C110C4002F4DC2 /* YYBaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -512,6 +513,48 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A4019B4B26C10FE5002F4DC2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A4019B4F26C11016002F4DC2 /* C */,
+				A4019B4E26C11011002F4DC2 /* V */,
+				A4019B4D26C1100C002F4DC2 /* M */,
+				A4019B4C26C10FEE002F4DC2 /* StoryBoard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A4019B4C26C10FEE002F4DC2 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A4019B5026C1104C002F4DC2 /* Login.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		A4019B4D26C1100C002F4DC2 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		A4019B4E26C11011002F4DC2 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		A4019B4F26C11016002F4DC2 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				A4019B5526C1112E002F4DC2 /* YYLoginViewController.h */,
+				A4019B5626C1112E002F4DC2 /* YYLoginViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 		BB8D88AA451E586DB8FA041F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -644,6 +687,7 @@
 			files = (
 				636C40D726BE369B00CD0205 /* LaunchScreen.storyboard in Resources */,
 				636C40D426BE369B00CD0205 /* Assets.xcassets in Resources */,
+				A4019B5126C1104C002F4DC2 /* Login.storyboard in Resources */,
 				636C413426BE37BD00CD0205 /* Third.storyboard in Resources */,
 				636C413526BE37BD00CD0205 /* Second.storyboard in Resources */,
 				636C40D226BE369A00CD0205 /* Main.storyboard in Resources */,
@@ -777,11 +821,9 @@
 			files = (
 				636C415E26BE37C600CD0205 /* NSObject+LZBExtension.m in Sources */,
 				636C412C26BE37BD00CD0205 /* LZBNavigationBar.m in Sources */,
-				636C40CF26BE369A00CD0205 /* ViewController.m in Sources */,
 				636C410B26BE373200CD0205 /* UIBarButtonItem+SXCreate.m in Sources */,
 				636C410D26BE373200CD0205 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				636C415A26BE37C500CD0205 /* NSMutableAttributedString+Addtion.m in Sources */,
-				636C413026BE37BD00CD0205 /* LZBBaseViewController.m in Sources */,
 				636C415826BE37C500CD0205 /* WHGradientHelper.m in Sources */,
 				636C412E26BE37BD00CD0205 /* LZBBaseTabBarController.m in Sources */,
 				636C40C926BE369A00CD0205 /* AppDelegate.m in Sources */,
@@ -792,11 +834,13 @@
 				636C416026BE37C600CD0205 /* Utils.m in Sources */,
 				636C413226BE37BD00CD0205 /* LZB_TabBar.m in Sources */,
 				636C416F26BE37D500CD0205 /* BANetManager.m in Sources */,
+				A4019B5426C110C4002F4DC2 /* YYBaseViewController.m in Sources */,
 				636C410A26BE373200CD0205 /* UINavigationItem+SXFixSpace.m in Sources */,
 				636C416C26BE37D500CD0205 /* UIImage+CompressImage.m in Sources */,
 				636C412D26BE37BD00CD0205 /* UINavigationBar+handle.m in Sources */,
 				636C416D26BE37D500CD0205 /* BADataEntity.m in Sources */,
 				636C416E26BE37D500CD0205 /* BANetManagerCache.m in Sources */,
+				A4019B5726C1112E002F4DC2 /* YYLoginViewController.m in Sources */,
 				636C415D26BE37C600CD0205 /* UIColor+lzbColor.m in Sources */,
 				636C415C26BE37C500CD0205 /* UILabel+AttributedString.m in Sources */,
 				636C40DA26BE369B00CD0205 /* main.m in Sources */,

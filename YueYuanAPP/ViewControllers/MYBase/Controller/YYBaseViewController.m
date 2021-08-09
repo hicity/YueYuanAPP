@@ -1,20 +1,20 @@
 //
-//  LZBBaseViewController.m
-//  LZBProject
+//  YYBaseViewController.m
+//  YueYuanAPP
 //
-//  Created by hicity on 2019/10/18.
-//  Copyright © 2019 hicity. All rights reserved.
+//  Created by 约牛 on 2021/8/9.
 //
 
-#import "LZBBaseViewController.h"
+#import "YYBaseViewController.h"
 
-@interface LZBBaseViewController ()
+@interface YYBaseViewController ()
 
 @end
 
-@implementation LZBBaseViewController
+@implementation YYBaseViewController
 
 - (void)viewDidLoad {
+    [super viewDidLoad];
     [super viewDidLoad];
     self.view.backgroundColor = KMAINFFFF;
     // 禁用系统导航栏
@@ -25,8 +25,7 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     ///添加自定义导航
     [self.view addSubview:self.navView];
-    
-    NSLog(@"123");
+    // Do any additional setup after loading the view.
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -37,9 +36,8 @@
 
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
+    return UIStatusBarStyleDefault;
 }
-
 
 
 ///  子类调用改方法 默认
@@ -57,5 +55,14 @@
     }
     return _navView;
 }
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

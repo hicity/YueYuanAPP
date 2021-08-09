@@ -23,7 +23,7 @@
     self.window.backgroundColor = UIColor.whiteColor;
     [self.window makeKeyAndVisible];
     [self addKeyboardManager];
-    [self entryMainVC];
+    [self entryLoginVC];
     
     
     EMOptions *options = [EMOptions optionsWithAppkey:@"appkey"];
@@ -72,6 +72,11 @@
     self.window.rootViewController = view;
 }
 
+
+- (void)entryLoginVC {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Login" bundle:[NSBundle mainBundle]];
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
+}
 
 
 //- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {

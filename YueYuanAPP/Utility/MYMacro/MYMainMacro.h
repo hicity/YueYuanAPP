@@ -8,12 +8,21 @@
 #ifndef MYMainMacro_h
 #define MYMainMacro_h
 
-#define iPhoneX \
-({BOOL isPhoneX = NO;\
-if (@available(iOS 11.0, *)) {\
-isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
-}\
-(isPhoneX);})
+//#define iPhoneX \
+//({BOOL isPhoneX = NO;\
+//if (@available(iOS 11.0, *)) {\
+//isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+//}\
+//(isPhoneX);})
+
+#define iPhoneX ({\
+    BOOL isIPhoneX = NO; \
+    if (@available(iOS 11.0, *)) { \
+    UIWindow *window = [[UIApplication sharedApplication].windows firstObject]; \
+    isIPhoneX = window.safeAreaInsets.bottom > 0; \
+    } \
+    isIPhoneX; \
+})
 
 #define kScreenBounds   [UIScreen mainScreen].bounds
 #define kScreenWidth    kScreenBounds.size.width
