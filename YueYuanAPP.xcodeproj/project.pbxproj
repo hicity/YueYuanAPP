@@ -46,6 +46,8 @@
 		A4019B5126C1104C002F4DC2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4019B5026C1104C002F4DC2 /* Login.storyboard */; };
 		A4019B5426C110C4002F4DC2 /* YYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4019B5326C110C4002F4DC2 /* YYBaseViewController.m */; };
 		A4019B5726C1112E002F4DC2 /* YYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4019B5626C1112E002F4DC2 /* YYLoginViewController.m */; };
+		A4019B5C26C11773002F4DC2 /* YYLoginRemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4019B5B26C11773002F4DC2 /* YYLoginRemindView.m */; };
+		A4019B5E26C11798002F4DC2 /* YYLoginRemindView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4019B5D26C11798002F4DC2 /* YYLoginRemindView.xib */; };
 		B9CE904557A70DEE5A5AFE2C /* Pods_YueYuanAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450A5C82836DE28D801E31B7 /* Pods_YueYuanAPPTests.framework */; };
 		C3C44FFBF01224877DE53664 /* Pods_YueYuanAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B88D5576121584E7AC8130B /* Pods_YueYuanAPP.framework */; };
 /* End PBXBuildFile section */
@@ -156,6 +158,9 @@
 		A4019B5326C110C4002F4DC2 /* YYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYBaseViewController.m; sourceTree = "<group>"; };
 		A4019B5526C1112E002F4DC2 /* YYLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYLoginViewController.h; sourceTree = "<group>"; };
 		A4019B5626C1112E002F4DC2 /* YYLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLoginViewController.m; sourceTree = "<group>"; };
+		A4019B5A26C11773002F4DC2 /* YYLoginRemindView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYLoginRemindView.h; sourceTree = "<group>"; };
+		A4019B5B26C11773002F4DC2 /* YYLoginRemindView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLoginRemindView.m; sourceTree = "<group>"; };
+		A4019B5D26C11798002F4DC2 /* YYLoginRemindView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YYLoginRemindView.xib; sourceTree = "<group>"; };
 		BB0AA3B4C6E1C033C66E80DB /* Pods_YueYuanAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YueYuanAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -542,6 +547,7 @@
 		A4019B4E26C11011002F4DC2 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				A4019B5926C1174E002F4DC2 /* LoginRemindView */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -549,10 +555,28 @@
 		A4019B4F26C11016002F4DC2 /* C */ = {
 			isa = PBXGroup;
 			children = (
+				A4019B5826C1173A002F4DC2 /* LoginVC */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		A4019B5826C1173A002F4DC2 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
 				A4019B5526C1112E002F4DC2 /* YYLoginViewController.h */,
 				A4019B5626C1112E002F4DC2 /* YYLoginViewController.m */,
 			);
-			path = C;
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		A4019B5926C1174E002F4DC2 /* LoginRemindView */ = {
+			isa = PBXGroup;
+			children = (
+				A4019B5A26C11773002F4DC2 /* YYLoginRemindView.h */,
+				A4019B5B26C11773002F4DC2 /* YYLoginRemindView.m */,
+				A4019B5D26C11798002F4DC2 /* YYLoginRemindView.xib */,
+			);
+			path = LoginRemindView;
 			sourceTree = "<group>";
 		};
 		BB8D88AA451E586DB8FA041F /* Frameworks */ = {
@@ -688,6 +712,7 @@
 				636C40D726BE369B00CD0205 /* LaunchScreen.storyboard in Resources */,
 				636C40D426BE369B00CD0205 /* Assets.xcassets in Resources */,
 				A4019B5126C1104C002F4DC2 /* Login.storyboard in Resources */,
+				A4019B5E26C11798002F4DC2 /* YYLoginRemindView.xib in Resources */,
 				636C413426BE37BD00CD0205 /* Third.storyboard in Resources */,
 				636C413526BE37BD00CD0205 /* Second.storyboard in Resources */,
 				636C40D226BE369A00CD0205 /* Main.storyboard in Resources */,
@@ -838,6 +863,7 @@
 				636C410A26BE373200CD0205 /* UINavigationItem+SXFixSpace.m in Sources */,
 				636C416C26BE37D500CD0205 /* UIImage+CompressImage.m in Sources */,
 				636C412D26BE37BD00CD0205 /* UINavigationBar+handle.m in Sources */,
+				A4019B5C26C11773002F4DC2 /* YYLoginRemindView.m in Sources */,
 				636C416D26BE37D500CD0205 /* BADataEntity.m in Sources */,
 				636C416E26BE37D500CD0205 /* BANetManagerCache.m in Sources */,
 				A4019B5726C1112E002F4DC2 /* YYLoginViewController.m in Sources */,

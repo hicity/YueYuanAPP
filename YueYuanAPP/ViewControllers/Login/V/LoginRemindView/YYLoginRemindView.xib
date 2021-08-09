@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YYLoginRemindView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u25-1Z-6Y0">
+                    <rect key="frame" x="57" y="237" width="300" height="422"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="温馨提示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTL-eT-JwO">
+                            <rect key="frame" x="115.5" y="18" width="69.5" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="adF-km-Pzd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N00-1x-fOX">
+                            <rect key="frame" x="18" y="57" width="264" height="310"/>
+                            <attributedString key="attributedText">
+                                <fragment content="  ">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="感谢您一直以来对美缘婚恋的信任！我们依据最新的监管要求更新了美缘婚恋">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="《用户协议》">
+                                    <attributes>
+                                        <color key="NSColor" red="0.4392156862745098" green="0.56470588235294117" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="及">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="《">
+                                    <attributes>
+                                        <color key="NSColor" red="0.4392156862745098" green="0.56470588235294117" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.4392156862745098" green="0.56470588235294117" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="隐私政策》">
+                                    <attributes>
+                                        <color key="NSColor" red="0.4392156862745098" green="0.56470588235294117" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="，且本次更新我们做出了诸多有利于保护用户个人信息的调整。隐私政策向您说明如下：">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="1">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="、为向您提供交易相关基本功能，经授权后我们会收集、使用必要的信息，并向您说明对应信息的业务使用场景；">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+2</string>
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="、基于您的明示授权，我们可能会获取设备号信息（以保障您账号与交友安全）等信息，您有权拒绝或取消授权；">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+3</string>
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="、我们会采取业界先进的安全措施保护您的信息安全；">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+4</string>
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="、未经您同意，我们不会从第三方处获取、共享或向其提供您的信息；">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+5</string>
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="、您可以查询、更正、删除您的个人信息，我们也提供账号注销功能。">
+                                    <attributes>
+                                        <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VxJ-Mr-8ok">
+                            <rect key="frame" x="0.0" y="372" width="300" height="0.5"/>
+                            <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="tyh-hm-fr3"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IU8-Av-BRh">
+                            <rect key="frame" x="150" y="372.5" width="0.5" height="49.5"/>
+                            <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="0.5" id="W8I-0v-7QJ"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BC-L8-DdE">
+                            <rect key="frame" x="0.0" y="372.5" width="150" height="49.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="不同意">
+                                <color key="titleColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhg-0P-eBT">
+                            <rect key="frame" x="150.5" y="372.5" width="149.5" height="49.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="不同意">
+                                <color key="titleColor" red="0.38039215686274508" green="0.4823529411764706" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="N00-1x-fOX" firstAttribute="centerX" secondItem="u25-1Z-6Y0" secondAttribute="centerX" id="7UN-dk-ag2"/>
+                        <constraint firstItem="7BC-L8-DdE" firstAttribute="top" secondItem="VxJ-Mr-8ok" secondAttribute="bottom" id="9YY-QV-QFY"/>
+                        <constraint firstItem="N00-1x-fOX" firstAttribute="top" secondItem="FTL-eT-JwO" secondAttribute="bottom" constant="18" id="9jy-Ti-G34"/>
+                        <constraint firstItem="7BC-L8-DdE" firstAttribute="leading" secondItem="u25-1Z-6Y0" secondAttribute="leading" id="EUN-R3-dg9"/>
+                        <constraint firstItem="Mhg-0P-eBT" firstAttribute="top" secondItem="VxJ-Mr-8ok" secondAttribute="bottom" id="FVt-cD-NrG"/>
+                        <constraint firstItem="VxJ-Mr-8ok" firstAttribute="top" secondItem="N00-1x-fOX" secondAttribute="bottom" constant="5" id="G84-ak-Hy2"/>
+                        <constraint firstItem="IU8-Av-BRh" firstAttribute="top" secondItem="VxJ-Mr-8ok" secondAttribute="bottom" id="Hcn-3Q-23d"/>
+                        <constraint firstItem="FTL-eT-JwO" firstAttribute="top" secondItem="u25-1Z-6Y0" secondAttribute="top" constant="18" id="JNn-Gm-VLX"/>
+                        <constraint firstAttribute="trailing" secondItem="N00-1x-fOX" secondAttribute="trailing" constant="18" id="KxD-QJ-jnl"/>
+                        <constraint firstItem="IU8-Av-BRh" firstAttribute="centerX" secondItem="u25-1Z-6Y0" secondAttribute="centerX" id="NhG-6X-CE8"/>
+                        <constraint firstAttribute="trailing" secondItem="VxJ-Mr-8ok" secondAttribute="trailing" id="SUq-Tg-Gb2"/>
+                        <constraint firstAttribute="bottom" secondItem="N00-1x-fOX" secondAttribute="bottom" constant="55" id="Td5-G1-VeW"/>
+                        <constraint firstAttribute="trailing" secondItem="Mhg-0P-eBT" secondAttribute="trailing" id="UD6-Be-wXl"/>
+                        <constraint firstAttribute="width" constant="300" id="VHz-TI-i5i"/>
+                        <constraint firstItem="VxJ-Mr-8ok" firstAttribute="leading" secondItem="u25-1Z-6Y0" secondAttribute="leading" id="e1y-On-YYb"/>
+                        <constraint firstItem="IU8-Av-BRh" firstAttribute="leading" secondItem="7BC-L8-DdE" secondAttribute="trailing" id="han-kh-ZHP"/>
+                        <constraint firstAttribute="bottom" secondItem="Mhg-0P-eBT" secondAttribute="bottom" id="jfZ-fN-52a"/>
+                        <constraint firstItem="FTL-eT-JwO" firstAttribute="centerX" secondItem="u25-1Z-6Y0" secondAttribute="centerX" id="pD7-wM-99Z"/>
+                        <constraint firstAttribute="bottom" secondItem="7BC-L8-DdE" secondAttribute="bottom" id="rhH-dv-QE2"/>
+                        <constraint firstItem="Mhg-0P-eBT" firstAttribute="leading" secondItem="IU8-Av-BRh" secondAttribute="trailing" id="uKp-Us-yxA"/>
+                        <constraint firstAttribute="height" constant="422" id="xCd-2w-pnY"/>
+                        <constraint firstAttribute="bottom" secondItem="IU8-Av-BRh" secondAttribute="bottom" id="yhr-dJ-RjE"/>
+                        <constraint firstItem="N00-1x-fOX" firstAttribute="leading" secondItem="u25-1Z-6Y0" secondAttribute="leading" constant="18" id="zeV-Qn-5y3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+            <constraints>
+                <constraint firstItem="u25-1Z-6Y0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="42i-Pr-oof"/>
+                <constraint firstItem="u25-1Z-6Y0" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="U5o-dy-PEr"/>
+            </constraints>
+            <point key="canvasLocation" x="95.652173913043484" y="84.375"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
